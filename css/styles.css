@@ -179,7 +179,9 @@ p {
 }
 
 .form-check {
-  text-align: center;
+  margin-left: 35%;
+  margin-right: 35%;
+  text-align: left;
 }
 
 .background-images {
