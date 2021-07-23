@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- meta: give extra metadata or associated data to the document -->
+		<!-- charset: Encoding System to be used for the encoded texts -->
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<!-- description: Description of Website, Google search index -->
+		<meta name="description" content="Lucas Ho" />
+		<meta name="keywords" content="Lucas Ho" />
+		<meta name="author" content="Lucas Ho" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+			integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+			crossorigin="anonymous"
+		/>
+		<!-- CSS Bootstrap CDN -->
+
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Ubuntu&display=swap"
+			rel="stylesheet"
+		/>
+		<!--
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+        -->
+		<link rel="stylesheet" href="css/styles.css" />
+		<!-- Final CSS Results / Effective CSS Styles = Last "link"-->
+		<!-- Meaning "css/styles.css" will override Bootstrap CSS -->
+
+		<script
+			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+			integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+			crossorigin="anonymous"
+		></script>
+		<!-- JS Bootstrap CDN -->
+	</head>
+	<body>
+		<section>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-6">
+						<h1 class="Montserrat-Black fs-3p5 lh-1p5">Calculator!</h1>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="feature-box col-lg-6 col-md-6 col-sm-6">
+						<a
+							href="#"
+							class="
+								list-group-item list-group-item-action list-group-item-dark
+							"
+							>Billing?</a
+						>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item playing billing" id="Bill-01">
+								Electricity and Water Bill:
+							</li>
+							<li class="list-group-item playing" id="Bill-02">
+								Singtel Bill:
+							</li>
+							<li class="list-group-item playing" id="Bill-03">
+								Bobo Singtel Bill:
+							</li>
+						</ul>
+					</div>
+					<div class="feature-box col-lg-6 col-md-6 col-sm-6">
+						<a
+							href="#"
+							class="
+								list-group-item list-group-item-action list-group-item-dark
+							"
+							>AMOUNT</a
+						>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item playing amount" id="">
+								<div class="input-group">
+									<div class="input-group-prepend">
+										<span class="input-group-text">$</span>
+									</div>
+									<input
+										type="text"
+										class="form-control amount-input"
+										aria-label="Amount (to the nearest dollar)"
+										id="Billing-01"
+										value="0"
+										onfocus="this.value=''"
+									/>
+								</div>
+							</li>
+							<li class="list-group-item playing amount" id="">
+								<div class="input-group">
+									<div class="input-group-prepend">
+										<span class="input-group-text">$</span>
+									</div>
+									<input
+										type="text"
+										class="form-control amount-input"
+										aria-label="Amount (to the nearest dollar)"
+										id="Billing-02"
+										value="0"
+										onfocus="this.value=''"
+									/>
+								</div>
+							</li>
+							<li class="list-group-item playing amount" id="">
+								<div class="input-group">
+									<div class="input-group-prepend">
+										<span class="input-group-text">$</span>
+									</div>
+									<input
+										type="text"
+										class="form-control amount-input"
+										aria-label="Amount (to the nearest dollar)"
+										id="Billing-03"
+										value="0"
+										onfocus="this.value=''"
+									/>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="feature-box col-lg-6 col-md-6 col-sm-6">
+						<a
+							href="#"
+							class="
+								list-group-item list-group-item-action list-group-item-dark
+							"
+							>NAME</a
+						>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item playing" id="Name-01">Lucas</li>
+							<li class="list-group-item playing" id="Name-02">Bobo</li>
+							<li class="list-group-item playing" id="Name-03">May Yan</li>
+							<li class="list-group-item playing" id="Name-04">Derick</li>
+							<li class="list-group-item playing" id="Name-05">Ricky</li>
+							<li class="list-group-item playing" id="Name-06">Amanda</li>
+						</ul>
+					</div>
+					<div class="feature-box col-lg-6 col-md-6 col-sm-6">
+						<a
+							href="#"
+							class="
+								list-group-item list-group-item-action list-group-item-dark
+							"
+							>AMOUNT</a
+						>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item playing" id="Amount-01">0</li>
+							<li class="list-group-item playing" id="Amount-02">0</li>
+							<li class="list-group-item playing" id="Amount-03">0</li>
+							<li class="list-group-item playing" id="Amount-04">0</li>
+							<li class="list-group-item playing" id="Amount-05">0</li>
+							<li class="list-group-item playing" id="Amount-06">0</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="feature-box col-lg-4 col-md-4 col-sm-4"></div>
+					<div class="feature-box col-lg-4 col-md-4 col-sm-4">
+						<button
+							type="button"
+							class="download-button btn btn-lg btn-dark calculateButton"
+						>
+							Calculate!
+						</button>
+					</div>
+					<div class="feature-box col-lg-4 col-md-4 col-sm-4"></div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Source for jQuery -->
+		<!-- Before external Javascript File -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="calculator.js" charset="utf-8"></script>
+	</body>
+</html>
