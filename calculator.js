@@ -28,7 +28,7 @@ function handleClick() {
 	Bobo = (Bobo + EWBill_each + SingtelBill_each + BoboSingtel_each).toFixed(2);
 	MY = (MY + EWBill_each + SingtelBill_each).toFixed(2);
 	Derick = (Derick + EWBill_each + SingtelBill_each).toFixed(2);
-	Ricky = (Ricky + EWBill_each + SingtelBill_each).toFixed(2);
+	Ricky = (Ricky + EWBill_each + SingtelBill_each - 69.9).toFixed(2);
 	Amanda = Amanda;
 
 	document.getElementById("Amount-01").innerHTML = Lucas;
