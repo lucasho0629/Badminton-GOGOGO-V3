@@ -16,7 +16,7 @@ function handleClick() {
 	var SingtelBill = document.getElementById("Billing-02").value;
 	var BoboSingtel = document.getElementById("Billing-03").value;
 
-	var EWBill_each = EWBill / 5;
+	var EWBill_each = EWBill / 6;
 	var SingtelBill_each = SingtelBill / 6;
 	var BoboSingtel_each = BoboSingtel / 1;
 
@@ -29,7 +29,7 @@ function handleClick() {
 	MY = (MY + EWBill_each + SingtelBill_each).toFixed(2);
 	Derick = (Derick + EWBill_each + SingtelBill_each).toFixed(2);
 	Ricky = (Ricky + EWBill_each + SingtelBill_each - 69.9).toFixed(2);
-	Amanda = (Amanda + SingtelBill_each).toFixed(2);
+	Amanda = (Amanda + EWBill_each + SingtelBill_each).toFixed(2);
 	Ricky = Ricky / 1 + Amanda / 1;
 	Amanda = 0;
 
