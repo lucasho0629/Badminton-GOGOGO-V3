@@ -53,117 +53,168 @@
 		<!-- JS Bootstrap CDN -->
 	</head>
 	<body>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="feature-box col-lg whoisplaying">
-					<a
-						href="#"
-						class="list-group-item list-group-item-action list-group-item-dark"
-						>Who is eating?</a
-					>
-
-					<div class="form-check form-switch">
-						<input class="form-check-input" type="checkbox" id="Lucas" />
-						<label class="form-check-label" for="flexSwitchCheckCheckedDisabled"
-							>Lucas is eating!</label
-						>
-					</div>
-					<div class="form-check form-switch">
-						<input class="form-check-input" type="checkbox" id="Ricky" />
-						<label class="form-check-label" for="flexSwitchCheckCheckedDisabled"
-							>Ricky is eating!</label
-						>
-					</div>
-					<div class="form-check form-switch">
-						<input class="form-check-input" type="checkbox" id="BigYvonne" />
-						<label class="form-check-label" for="flexSwitchCheckCheckedDisabled"
-							>Yvonne Lee is eating!</label
-						>
-					</div>
-					<div class="form-check form-switch">
-						<input class="form-check-input" type="checkbox" id="Victor" />
-						<label class="form-check-label" for="flexSwitchCheckCheckedDisabled"
-							>Victor is eating!</label
-						>
-					</div>
-					<div class="form-check form-switch">
-						<input class="form-check-input" type="checkbox" id="Eason" />
-						<label class="form-check-label" for="flexSwitchCheckCheckedDisabled"
-							>Eason is eating!</label
-						>
-					</div>
-					<div class="form-check form-switch">
-						<input class="form-check-input" type="checkbox" id="SmallYvonne" />
-						<label class="form-check-label" for="flexSwitchCheckDefault"
-							>Yvonne Lim is eating!</label
-						>
-					</div>
-					<div class="form-check form-switch">
-						<input class="form-check-input" type="checkbox" id="KaiXin" />
-						<label class="form-check-label" for="flexSwitchCheckDefault"
-							>KaiXin is eating!</label
-						>
-					</div>
-					<div class="form-check form-switch">
-						<input class="form-check-input" type="checkbox" id="Roy" />
-						<label class="form-check-label" for="flexSwitchCheckDefault"
-							>Roy is eating!</label
-						>
-					</div>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="feature-box col-lg-6 col-md-6 col-sm-6">
-					<a
-						href="#"
-						class="list-group-item list-group-item-action list-group-item-dark"
-						>Table A</a
-					>
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item playing" id="A-01">Empty</li>
-						<li class="list-group-item playing" id="A-02">Empty</li>
-						<li class="list-group-item playing" id="A-03">Empty</li>
-						<li class="list-group-item playing" id="A-04">Empty</li>
-					</ul>
-				</div>
-				<div class="feature-box col-lg-6 col-md-6 col-sm-6">
-					<a
-						href="#"
-						class="list-group-item list-group-item-action list-group-item-dark"
-						>Table B</a
-					>
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item playing" id="B-01">Empty</li>
-						<li class="list-group-item playing" id="B-02">Empty</li>
-						<li class="list-group-item playing" id="B-03">Empty</li>
-						<li class="list-group-item playing" id="B-04">Empty</li>
-					</ul>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="feature-box col-lg-4 col-md-4 col-sm-4"></div>
-				<div class="feature-box col-lg-4 col-md-4 col-sm-4">
-					<div class="spinner-grow text-danger" role="status">
-						<span class="sr-only">Loading...</span>
-					</div>
-				</div>
-				<div class="feature-box col-lg-4 col-md-4 col-sm-4"></div>
-			</div>
-			<div class="row">
-				<div class="feature-box col-lg-4 col-md-4 col-sm-4"></div>
-				<div class="feature-box col-lg-4 col-md-4 col-sm-4">
+		<section class="coloured-section" id="title">
+			<div class="container-fluid">
+				<nav class="navbar navbar-expand-lg navbar-dark">
+					<!-- Create Navigation Bar and its customizations -->
+					<!-- Navigation expands till "lg" Large Size viewport -->
+					<a class="navbar-brand" href="">Table GO</a>
+					<!-- Create a Brand on the Navigation Bar -->
 					<button
+						class="navbar-toggler"
 						type="button"
-						class="download-button btn btn-lg btn-dark randomButton"
+						data-toggle="collapse"
+						data-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
 					>
-						Random!
+						<!-- Create a Toggler Button to display group of "collapse" elements when viewpoprt smaller than Nav Bar expands -->
+						<!-- In this case whenever viewport smaller than "lg" Large Size, it will collapse -->
+						<span class="navbar-toggler-icon"></span>
 					</button>
+				</nav>
+
+				<div class="row">
+					<div class="col-lg-6">
+						<h1 class="Montserrat-Black fs-3p5 lh-1p5">Let's EAT!</h1>
+					</div>
 				</div>
-				<div class="feature-box col-lg-4 col-md-4 col-sm-4"></div>
 			</div>
-		</div>
+		</section>
+		<section>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="feature-box col-lg whoisplaying">
+						<a
+							href="#"
+							class="
+								list-group-item list-group-item-action list-group-item-dark
+							"
+							>Who is eating?</a
+						>
+
+						<div class="form-check form-switch">
+							<input class="form-check-input" type="checkbox" id="Lucas" />
+							<label
+								class="form-check-label"
+								for="flexSwitchCheckCheckedDisabled"
+								>Lucas is eating!</label
+							>
+						</div>
+						<div class="form-check form-switch">
+							<input class="form-check-input" type="checkbox" id="Ricky" />
+							<label
+								class="form-check-label"
+								for="flexSwitchCheckCheckedDisabled"
+								>Ricky is eating!</label
+							>
+						</div>
+						<div class="form-check form-switch">
+							<input class="form-check-input" type="checkbox" id="BigYvonne" />
+							<label
+								class="form-check-label"
+								for="flexSwitchCheckCheckedDisabled"
+								>Yvonne Lee is eating!</label
+							>
+						</div>
+						<div class="form-check form-switch">
+							<input class="form-check-input" type="checkbox" id="Victor" />
+							<label
+								class="form-check-label"
+								for="flexSwitchCheckCheckedDisabled"
+								>Victor is eating!</label
+							>
+						</div>
+						<div class="form-check form-switch">
+							<input class="form-check-input" type="checkbox" id="Eason" />
+							<label
+								class="form-check-label"
+								for="flexSwitchCheckCheckedDisabled"
+								>Eason is eating!</label
+							>
+						</div>
+						<div class="form-check form-switch">
+							<input
+								class="form-check-input"
+								type="checkbox"
+								id="SmallYvonne"
+							/>
+							<label class="form-check-label" for="flexSwitchCheckDefault"
+								>Yvonne Lim is eating!</label
+							>
+						</div>
+						<div class="form-check form-switch">
+							<input class="form-check-input" type="checkbox" id="KaiXin" />
+							<label class="form-check-label" for="flexSwitchCheckDefault"
+								>KaiXin is eating!</label
+							>
+						</div>
+						<div class="form-check form-switch">
+							<input class="form-check-input" type="checkbox" id="Roy" />
+							<label class="form-check-label" for="flexSwitchCheckDefault"
+								>Roy is eating!</label
+							>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="feature-box col-lg-6 col-md-6 col-sm-6">
+						<a
+							href="#"
+							class="
+								list-group-item list-group-item-action list-group-item-dark
+							"
+							>Table A</a
+						>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item playing" id="A-01">Empty</li>
+							<li class="list-group-item playing" id="A-02">Empty</li>
+							<li class="list-group-item playing" id="A-03">Empty</li>
+							<li class="list-group-item playing" id="A-04">Empty</li>
+						</ul>
+					</div>
+					<div class="feature-box col-lg-6 col-md-6 col-sm-6">
+						<a
+							href="#"
+							class="
+								list-group-item list-group-item-action list-group-item-dark
+							"
+							>Table B</a
+						>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item playing" id="B-01">Empty</li>
+							<li class="list-group-item playing" id="B-02">Empty</li>
+							<li class="list-group-item playing" id="B-03">Empty</li>
+							<li class="list-group-item playing" id="B-04">Empty</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="feature-box col-lg-4 col-md-4 col-sm-4"></div>
+					<div class="feature-box col-lg-4 col-md-4 col-sm-4">
+						<div class="spinner-grow text-danger" role="status">
+							<span class="sr-only">Loading...</span>
+						</div>
+					</div>
+					<div class="feature-box col-lg-4 col-md-4 col-sm-4"></div>
+				</div>
+				<div class="row">
+					<div class="feature-box col-lg-4 col-md-4 col-sm-4"></div>
+					<div class="feature-box col-lg-4 col-md-4 col-sm-4">
+						<button
+							type="button"
+							class="download-button btn btn-lg btn-dark randomButton"
+						>
+							Random!
+						</button>
+					</div>
+					<div class="feature-box col-lg-4 col-md-4 col-sm-4"></div>
+				</div>
+			</div>
+		</section>
 
 		<!-- Source for jQuery -->
 		<!-- Before external Javascript File -->
