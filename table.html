@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- meta: give extra metadata or associated data to the document -->
+		<!-- charset: Encoding System to be used for the encoded texts -->
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<!-- description: Description of Website, Google search index -->
+		<meta name="description" content="Lucas Ho" />
+		<meta name="keywords" content="Lucas Ho" />
+		<meta name="author" content="Lucas Ho" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+			integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+			crossorigin="anonymous"
+		/>
+		<!-- CSS Bootstrap CDN -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Ubuntu&display=swap"
+			rel="stylesheet"
+		/>
+		<!--
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+   -->
+		<link href="fontawesome/css/all.css" rel="stylesheet" />
+		<script src="fontawesome/js/all.js"></script>
+		<!-- "link" used to import Font Awesome icons -->
+
+		<link rel="stylesheet" href="css/styles.css" />
+		<!-- Final CSS Results / Effective CSS Styles = Last "link"-->
+		<!-- Meaning "css/styles.css" will override Bootstrap CSS -->
+
+		<script
+			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+			integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+			crossorigin="anonymous"
+		></script>
+		<!-- JS Bootstrap CDN -->
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="feature-box col-lg whoisplaying">
+					<a
+						href="#"
+						class="list-group-item list-group-item-action list-group-item-dark"
+						>Who is eating?</a
+					>
+
+					<div class="form-check form-switch">
+						<input class="form-check-input" type="checkbox" id="Lucas" />
+						<label class="form-check-label" for="flexSwitchCheckCheckedDisabled"
+							>Lucas is eating!</label
+						>
+					</div>
+					<div class="form-check form-switch">
+						<input class="form-check-input" type="checkbox" id="Ricky" />
+						<label class="form-check-label" for="flexSwitchCheckCheckedDisabled"
+							>Ricky is eating!</label
+						>
+					</div>
+					<div class="form-check form-switch">
+						<input class="form-check-input" type="checkbox" id="BigYvonne" />
+						<label class="form-check-label" for="flexSwitchCheckCheckedDisabled"
+							>Yvonne Lee is eating!</label
+						>
+					</div>
+					<div class="form-check form-switch">
+						<input class="form-check-input" type="checkbox" id="Victor" />
+						<label class="form-check-label" for="flexSwitchCheckCheckedDisabled"
+							>Victor is eating!</label
+						>
+					</div>
+					<div class="form-check form-switch">
+						<input class="form-check-input" type="checkbox" id="Eason" />
+						<label class="form-check-label" for="flexSwitchCheckCheckedDisabled"
+							>Eason is eating!</label
+						>
+					</div>
+					<div class="form-check form-switch">
+						<input class="form-check-input" type="checkbox" id="SmallYvonne" />
+						<label class="form-check-label" for="flexSwitchCheckDefault"
+							>Yvonne Lim is eating!</label
+						>
+					</div>
+					<div class="form-check form-switch">
+						<input class="form-check-input" type="checkbox" id="KaiXin" />
+						<label class="form-check-label" for="flexSwitchCheckDefault"
+							>KaiXin is eating!</label
+						>
+					</div>
+					<div class="form-check form-switch">
+						<input class="form-check-input" type="checkbox" id="Roy" />
+						<label class="form-check-label" for="flexSwitchCheckDefault"
+							>Roy is eating!</label
+						>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="feature-box col-lg-6 col-md-6 col-sm-6">
+					<a
+						href="#"
+						class="list-group-item list-group-item-action list-group-item-dark"
+						>Table A</a
+					>
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item playing" id="A-01">Empty</li>
+						<li class="list-group-item playing" id="A-02">Empty</li>
+						<li class="list-group-item playing" id="A-03">Empty</li>
+						<li class="list-group-item playing" id="A-04">Empty</li>
+					</ul>
+				</div>
+				<div class="feature-box col-lg-6 col-md-6 col-sm-6">
+					<a
+						href="#"
+						class="list-group-item list-group-item-action list-group-item-dark"
+						>Table B</a
+					>
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item playing" id="B-01">Empty</li>
+						<li class="list-group-item playing" id="B-02">Empty</li>
+						<li class="list-group-item playing" id="B-03">Empty</li>
+						<li class="list-group-item playing" id="B-04">Empty</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="feature-box col-lg-4 col-md-4 col-sm-4"></div>
+				<div class="feature-box col-lg-4 col-md-4 col-sm-4">
+					<div class="spinner-grow text-danger" role="status">
+						<span class="sr-only">Loading...</span>
+					</div>
+				</div>
+				<div class="feature-box col-lg-4 col-md-4 col-sm-4"></div>
+			</div>
+			<div class="row">
+				<div class="feature-box col-lg-4 col-md-4 col-sm-4"></div>
+				<div class="feature-box col-lg-4 col-md-4 col-sm-4">
+					<button
+						type="button"
+						class="download-button btn btn-lg btn-dark randomButton"
+					>
+						Random!
+					</button>
+				</div>
+				<div class="feature-box col-lg-4 col-md-4 col-sm-4"></div>
+			</div>
+		</div>
+
+		<!-- Source for jQuery -->
+		<!-- Before external Javascript File -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="table.js" charset="utf-8"></script>
+	</body>
+</html>
