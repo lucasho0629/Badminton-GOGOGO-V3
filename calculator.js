@@ -5,12 +5,12 @@ calculateButton.addEventListener("click", handleClick);
 function handleClick() {
 	$(".spinner-grow").css("display", "inline-block");
 
-	var Lucas = 393.34;
-	var Bobo = 393.33;
-	var MY = 383.33;
-	var Derick = 483.33;
-	var Ricky = 373.34;
-	var Amanda = 373.33;
+	var Lucas = 593.34;
+	var Bobo = 493.33;
+	var MY = 533.33;
+	var Derick = 633.33;
+	var Ricky = 523.34;
+	var Amanda = 523.33;
 
 	var EWBill = document.getElementById("Billing-01").value;
 	var SingtelBill = document.getElementById("Billing-02").value;
