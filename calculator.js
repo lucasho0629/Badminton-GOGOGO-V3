@@ -5,8 +5,8 @@ calculateButton.addEventListener("click", handleClick);
 function handleClick() {
 	$(".spinner-grow").css("display", "inline-block");
 
-	var Lucas = 593.34;
-	var Bobo = 493.33;
+	var Lucas = 543.34;
+	var Bobo = 543.33;
 	var MY = 533.33;
 	var Derick = 633.33;
 	var Ricky = 523.34;
